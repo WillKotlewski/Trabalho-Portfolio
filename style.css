@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: 40px;
+}
+#menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu li {
+    display: inline;
+    margin: 30px 50px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#menu ul {
+    background-color: rgba(66, 66, 66, 0.267);
+    text-align: center;
+    padding: 20px;
+}
+#menu ul + ul{
+    margin-top: 379px;
+    padding: 10px 0 10px 0;
+}
+.imagem-fundo {
+    background-image: url('https://www.wikimetal.com.br/wp-content/uploads/2021/07/system-of-a-down.jpg');
+    background-attachment: fixed;
+    height: 500px;
+}
+#sobre {
+    background-color: rgba(224, 224, 224, 0.808);
+    text-align: center;
+}
+#sobre > img {
+    text-align: center;
+    height: 180px;
+    background-position: center;  
+}
+#sobre > p {
+    text-align: left;
+    margin: 0 200px 20px 200px;
+}
+#sobre > p:last-child {
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+#musicas, #albuns {
+    background-color: rgb(10, 10, 10);
+}
+#albuns {
+    margin-top: 20px;
+}
+#musicas h1 {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+}
+#listaMusicas {
+    background-color: rgb(19, 19, 19);
+    padding: 10px 0 40px 0;
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+    margin: 40px 0 20px 0;
+    font-size: 30px;
+}
+audio {
+    width: 500px;
+}
+#musicas iframe {
+    margin: 30px 50px 0px 50px;
+    width: 400px;
+}
+#shows {
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    padding-bottom: 20px;
+}
+#shows h1, #contato h1 {
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+}
+#shows iframe {
+    margin: 10px;
+}
+#contato {
+    background-color: rgb(116, 116, 116);
+    padding-bottom: 20px;
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+label {
+    font-size: 24px
+}
+input {
+    padding: 10px 80px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+textarea {
+    padding: 30px 83px;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+#botao {
+    padding: 10px 145px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    margin-top: 10px;
+}
+#botao:hover {
+    background-color: rgb(75, 75, 75);
+}
